@@ -10,32 +10,39 @@
     Author          : Mitsunobu
     Create Time     : 2022-11-29 16:19:47
     Modified by     : Mitsunobu
-    Modified time   : 2022-11-29 18:55:56 */
+    Modified time   : 2022-11-29 18:55:56
+*/
+
+/***************************/
+/*      TAG SELECTORS      */
+/***************************/
 
 @font-face
 {
     font-family: 'Matrix';
-    src: url('../fonts/OCRAEXT.TTF') format('truetype');
-    font-weight: normal;
     font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/OCRAEXT.TTF') format('truetype');
 }
 
 body
 {
     background-color: #010001;
+    margin: 0;
 }
 
-form {
-    font-family     : 'Matrix';
+form 
+{
     color           : #008F11;
+    font-family     : 'Matrix';
     max-width       : 400px;
 	padding         : 10px;
-  }
+}
 
 h3
 {
-    font-family     :   'Matrix';
     color           :   #008F11;
+    font-family     :   'Matrix';
 }
 
 hr
@@ -54,42 +61,69 @@ img
 
 label
 {
-    display         : inline-block;
     clear           : left;
-    width           : 250px;
+    display         : inline-block;
     text-align      : left;
+    width           : 250px;
 }
 
 li
 {
-    font-family     :  'Matrix';
     color           : #008F11;
+    font-family     :  'Matrix';
 }
 
 input
 {
-    font-family     : 'Matrix';
     color           : #008F11;
-    display         : inline-block;
     background      : #191919;
+    display         : inline-block;
+    font-family     : 'Matrix';
 }
 
 p
 {
-    font-family     :  'Matrix';
     color           : #008F11;
+    font-family     :  'Matrix';
 }
 
 textarea
 {
-    font-family     : 'Matrix';
     color           : #008F11;
-    display         : inline-block;
     background      : #191919;
+    display         : inline-block;
+    font-family     : 'Matrix';
 }
 
 ul
 {
-    font-family     :  'Matrix';
     color           : #008F11;
+    font-family     :  'Matrix';
 }
+
+/***************************/
+/*      CLASS SELECTORS    */
+/***************************/
+
+.top-container
+{
+    background-color    : #010001;;
+}
+
+.middle-container
+{
+    background-color    : blue;
+    width               : 200px;
+    height              : 200px;
+}
+
+.bottom-container
+{
+    background-color    : red;
+    width               : 200px;
+    height              : 200px;
+}
+
+/***************************/
+/*      ID SELECTORS       */
+/***************************/
