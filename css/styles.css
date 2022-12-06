@@ -1,0 +1,95 @@
+/* 
+                __                                   __
+    /'\_/`\  __/\ \__                               /\ \
+    /\      \/\_\ \ ,_\   ____  __  __    ___     ___\ \ \____  __  __
+    \ \ \__\ \/\ \ \ \/  /',__\/\ \/\ \ /' _ `\  / __`\ \ '__`\/\ \/\ \
+    \ \ \_/\ \ \ \ \ \_/\__, `\ \ \_\ \/\ \/\ \/\ \L\ \ \ \L\ \ \ \_\ \
+    \ \_\\ \_\ \_\ \__\/\____/\ \____/\ \_\ \_\ \____/\ \_,__/\ \____/
+    \/_/ \/_/\/_/\/__/\/___/  \/___/  \/_/\/_/\/___/  \/___/  \/___/
+
+    Author          : Mitsunobu
+    Create Time     : 2022-11-29 16:19:47
+    Modified by     : Mitsunobu
+    Modified time   : 2022-11-29 18:55:56 */
+
+@font-face
+{
+    font-family: 'Matrix';
+    src: url('../fonts/OCRAEXT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-color: #010001;
+}
+
+form {
+    font-family     : 'Matrix';
+    color           : #008F11;
+    max-width       : 400px;
+	padding         : 10px;
+  }
+
+h3
+{
+    font-family     :   'Matrix';
+    color           :   #008F11;
+}
+
+hr
+{
+    border          : 2px solid #008F11;
+    border-radius   : 5px;
+    max-width       : 100%;
+    object-fit      : cover;
+}
+
+img
+{
+    max-width       : 100%;
+    object-fit      : cover;
+}
+
+label
+{
+    display         : inline-block;
+    clear           : left;
+    width           : 250px;
+    text-align      : left;
+}
+
+li
+{
+    font-family     :  'Matrix';
+    color           : #008F11;
+}
+
+input
+{
+    font-family     : 'Matrix';
+    color           : #008F11;
+    display         : inline-block;
+    background      : #191919;
+}
+
+p
+{
+    font-family     :  'Matrix';
+    color           : #008F11;
+}
+
+textarea
+{
+    font-family     : 'Matrix';
+    color           : #008F11;
+    display         : inline-block;
+    background      : #191919;
+}
+
+ul
+{
+    font-family     :  'Matrix';
+    color           : #008F11;
+}
