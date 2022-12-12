@@ -1,4 +1,4 @@
-/* 
+/*
                 __                                   __
     /'\_/`\  __/\ \__                               /\ \
     /\      \/\_\ \ ,_\   ____  __  __    ___     ___\ \ \____  __  __
@@ -19,109 +19,121 @@
 
 @font-face
 {
-    font-family: 'Matrix';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/OCRAEXT.TTF') format('truetype');
+    font-family      : 'Matrix';
+    font-style       : normal;
+    font-weight      : normal;
+    src              : url('../fonts/OCRAEXT.TTF') format('truetype');
 }
 
 body
 {
-    background-color: #010001;
-    margin: 0;
+    background-color : #010001;
+    margin           : 0;
 }
 
-form 
+form
 {
-    color           : #008F11;
-    font-family     : 'Matrix';
-    max-width       : 400px;
-	padding         : 10px;
+    color            : #008F11;
+    font-family      : 'Matrix';
+    max-width        : 400px;
+	padding          : 10px;
 }
 
 h3
 {
-    color           :   #008F11;
-    font-family     :   'Matrix';
+    color            : #008F11;
+    font-family      : 'Matrix';
 }
 
 hr
 {
-    border          : 2px solid #008F11;
-    border-radius   : 5px;
-    max-width       : 100%;
-    object-fit      : cover;
+    border           : 2px solid #008F11;
+    border-radius    : 5px;
+    max-width        : 100%;
+    object-fit       : cover;
 }
 
 img
 {
-    max-width       : 100%;
-    object-fit      : cover;
+    max-width        : 100%;
+    object-fit       : cover;
 }
 
 label
 {
-    clear           : left;
-    display         : inline-block;
-    text-align      : left;
-    width           : 250px;
+    clear            : left;
+    display          : inline-block;
+    text-align       : left;
+    width            : 250px;
 }
 
 li
 {
-    color           : #008F11;
-    font-family     :  'Matrix';
+    color            : #008F11;
+    font-family      :  'Matrix';
 }
 
 input
 {
-    color           : #008F11;
-    background      : #191919;
-    display         : inline-block;
-    font-family     : 'Matrix';
+    color            : #008F11;
+    background       : #191919;
+    display          : inline-block;
+    font-family      : 'Matrix';
 }
 
 p
 {
-    color           : #008F11;
-    font-family     :  'Matrix';
+    color            : #008F11;
+    font-family      :  'Matrix';
 }
 
 textarea
 {
-    color           : #008F11;
-    background      : #191919;
-    display         : inline-block;
-    font-family     : 'Matrix';
+    color            : #008F11;
+    background       : #191919;
+    display          : inline-block;
+    font-family      : 'Matrix';
 }
 
 ul
 {
-    color           : #008F11;
-    font-family     :  'Matrix';
+    color            : #008F11;
+    font-family      : 'Matrix';
 }
 
 /***************************/
 /*      CLASS SELECTORS    */
 /***************************/
 
-.top-container
+.banner-div
 {
-    background-color    : #010001;;
+    background-color : #010001;
 }
 
-.middle-container
+.banner-img
 {
-    background-color    : blue;
-    width               : 200px;
-    height              : 200px;
+    display          : block;
+    width            : 70%;
+    margin-left      : auto;
+    margin-right     : auto;
 }
 
 .bottom-container
 {
-    background-color    : red;
-    width               : 200px;
-    height              : 200px;
+    background-color : red;
+    width            : 200px;
+    height           : 200px;
+}
+
+.legal
+{
+    text-align       : center;
+}
+
+.manifesto-div
+{
+    background-color : #010001;
+    text-align       : center;
 }
 
 /***************************/
